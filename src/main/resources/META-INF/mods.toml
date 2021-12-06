@@ -1,36 +1,36 @@
-modLoader="javafml" #mandatory
-loaderVersion="[38,)" #mandatory
+modLoader="javafml"
+loaderVersion="[38,)"
 license="MIT License"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
 
 [[mods]] #mandatory
-modId="packofcharcoal" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="Pack of Charcoal" #mandatory
-#updateJSONURL="https://change.me.example.invalid/updates.json" #optional
-#displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
-#logoFile="examplemod.png" #optional
-#credits="Thanks for this example mod goes to Java" #optional
-authors="Michael T. Ross" #optional
+modId="packofcharcoal"
+version="${file.jarVersion}"
+displayName="Pack of Charcoal"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+#logoFile="examplemod.png"
+#credits="Thanks for this example mod goes to Java"
+authors="Michael T. Ross"
 
-(#mandatory)
 description='''
 This is a simple mod that adds a pack of charcoal item.
 
-The recipe for this item is four charcoal in a 2x2 pattern. A pack of charcoal can be crafted back into four charcoal.
+The recipe for this item is four charcoal in a 2x2 pattern.
+A pack of charcoal can be crafted back into four charcoal.
 
-A pack of charcoal can be used as fuel for smelting. One pack of charcoal lasts 320 seconds (smelting up to 32 items), the same as the four charcoal used to craft it.
+A pack of charcoal can be used as fuel for smelting.
+One pack of charcoal lasts 320 seconds (smelting up to 32 items), the same as the four charcoal used to craft it.
 '''
 
-[[dependencies.examplemod]] #optional
-    modId="forge" #mandatory
-    mandatory=true #mandatory
-    versionRange="[38,)" #mandatory
+[[dependencies.packofcharcoal]]
+    modId="forge"
+    mandatory=true
+    versionRange="[38,)"
     ordering="NONE"
     side="BOTH"
 
-# Here's another dependency
-[[dependencies.examplemod]]
+[[dependencies.packofcharcoal]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.18,1.19)"
