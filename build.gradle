@@ -11,8 +11,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.18.1-0.0.0'
-group = 'com.michaetlross.packofcharcoal'
+version = '1.18.1-0.1.0'
+group = 'dev.michaetlross.packofcharcoal'
 archivesBaseName = 'Pack-of-Charcoal'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -73,7 +73,7 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {  }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.1-39.0.10'
+    minecraft 'net.minecraftforge:forge:1.18.1-39.0.14'
 }
 
 jar {

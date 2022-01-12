@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "packofcharcoal:charcoal_from_charcoal_pack"
+    ]
+  },
+  "criteria": {
+    "has_charcoal_pack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "packofcharcoal:charcoal_pack"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "packofcharcoal:charcoal_from_charcoal_pack"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_charcoal_pack",
+      "has_the_recipe"
+    ]
+  ]
+}

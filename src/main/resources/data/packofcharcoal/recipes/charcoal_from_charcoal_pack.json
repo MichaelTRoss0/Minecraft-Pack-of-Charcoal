@@ -1,0 +1,14 @@
+{
+  "type" : "minecraft:crafting_shapeless",
+  "ingredients" :
+  [
+    {
+      "item" : "packofcharcoal:charcoal_pack"
+    }
+  ],
+  "result" :
+  {
+    "item" : "minecraft:charcoal",
+    "count" : 4
+  }
+}
