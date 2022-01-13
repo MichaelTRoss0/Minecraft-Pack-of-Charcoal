@@ -1,7 +1,6 @@
 modLoader="javafml"
-loaderVersion="[39,)"
+loaderVersion="${loader_version}"
 license="MIT License"
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
 
 [[mods]]
 modId="packofcharcoal"
@@ -9,8 +8,7 @@ version="${file.jarVersion}"
 displayName="Pack of Charcoal"
 updateJSONURL="https://github.com/MichaelTRoss0/Minecraft-Pack-of-Charcoal/update.json"
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
-#logoFile="examplemod.png"
-#credits="Thanks for this example mod goes to Java"
+logoFile="charcoal_pack.png"
 authors="Michael T. Ross"
 
 description='''
@@ -26,13 +24,13 @@ One pack of charcoal lasts 320 seconds (smelting up to 32 items), the same as th
 [[dependencies.packofcharcoal]]
     modId="forge"
     mandatory=true
-    versionRange="[39,)"
+    versionRange="${forge_version_range}"
     ordering="NONE"
     side="BOTH"
 
 [[dependencies.packofcharcoal]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.1,1.19)"
+    versionRange="${minecraft_version_range}"
     ordering="NONE"
     side="BOTH"
