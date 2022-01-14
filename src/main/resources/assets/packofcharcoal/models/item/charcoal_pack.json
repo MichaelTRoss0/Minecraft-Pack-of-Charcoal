@@ -1,6 +1,6 @@
 {
   "parent": "packofcharcoal:item/generated",
   "textures": {
-    "layer0": "packofcharcoal:item/packofcharcoal"
+    "layer0": "packofcharcoal:item/pack_of_charcoal"
   }
 }
