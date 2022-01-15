@@ -12,13 +12,13 @@ logoFile="pack.png"
 authors="Michael T. Ross"
 
 description='''
-This is a simple mod that adds a pack of charcoal item.
+A simple mod to add a pack of charcoal item and its recipe to Minecraft.
 
-The recipe for this item is four charcoal in a 2x2 pattern.
-A pack of charcoal can be crafted back into four charcoal, allowing for bulk storage of charcoal.
+To craft a pack of charcoal, put four charcoal in a 2x2 square on a crafting grid.
+A single pack of charcoal can be used to craft four charcoal, allowing for bulk storage of charcoal.
 
-A pack of charcoal can also be used as fuel for smelting.
-One pack of charcoal lasts 320 seconds (smelting up to 32 items), the same as the four charcoal used to craft it.
+A pack of charcoal can be used as fuel for smelting.
+A single pack of charcoal will smelt 32 items, equal to the four charcoal used to make it with no added efficiency.
 '''
 
 [[dependencies.packofcharcoal]]
