@@ -16,7 +16,7 @@ apply plugin: 'com.matthewprenger.cursegradle'
 
 version = "${minecraft_version}-${mod_version}"
 group = "${mod_group}"
-archivesBaseName = "${mod_name}"
+archivesBaseName = "${mod_id}"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
