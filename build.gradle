@@ -1,7 +1,6 @@
 buildscript {
     repositories {
         maven { url = 'https://maven.minecraftforge.net' }
-        maven { url 'https://plugins.gradle.org/m2/' }
         gradlePluginPortal()
         mavenCentral()
     }
@@ -14,11 +13,6 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'com.matthewprenger.cursegradle'
-apply from: 'gradle/property_loader.gradle'
-
-subprojects {
-    apply from: '../gradle/property_loader.gradle'
-}
 
 version = "${minecraft_version}-${mod_version}"
 group = "${mod_group}"

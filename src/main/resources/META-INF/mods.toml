@@ -3,13 +3,13 @@ loaderVersion="${loader_version}"
 license="MIT License"
 
 [[mods]]
-modId="${mod_id}"
+modId="packofcharcoal"
 version="${file.jarVersion}"
-displayName="${mod_name}"
-updateJSONURL="${git_repo}/blob/main/update.json"
-displayURL="${curse_homepage}"
+displayName="Pack of Charcoal"
+updateJSONURL="https://github.com/MichaelTRoss0/Minecraft-Pack-of-Charcoal/blob/main/update.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/pack-of-charcoal"
 logoFile="pack.png"
-authors="${mod_author}"
+authors="Michael T. Ross"
 
 description='''
 A simple mod to add a pack of charcoal item and its recipe to Minecraft.
